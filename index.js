@@ -36,11 +36,11 @@ function dice2(num2) {
 
 function won(a, b) {
   if (a>b) {
-    document.querySelector(".won").innerText="$$$ Player 1 wins $$$"
+    document.querySelector(".won").innerText="$$$ Player 1 won. $$$"
   } else if (a===b) {
-    document.querySelector(".won").innerText="Musharaf wins...^_^"
+    document.querySelector(".won").innerText="I won...^_^"
   } else {
-    document.querySelector(".won").innerText="$$$ Player 2 wins $$$"
+    document.querySelector(".won").innerText="$$$ Player 2 won.. $$$"
   }
 }
 
